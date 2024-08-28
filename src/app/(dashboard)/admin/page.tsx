@@ -1,5 +1,6 @@
 import AttendanceChart from "@/components/AttendanceChart";
 import CountChart from "@/components/CountChart";
+import FinanceChart from "@/components/FinanceChart";
 import Usercard from "@/components/Usercard";
 
 
@@ -27,7 +28,9 @@ const Page = () => {
           </div>
         </div>
         {/* BOTTOM CHART */}
-        <div className=""></div>
+        <div className="w-full h-[500px]">
+          <FinanceChart/>
+        </div>
       </div>
 
       {/*RIGHT  */}

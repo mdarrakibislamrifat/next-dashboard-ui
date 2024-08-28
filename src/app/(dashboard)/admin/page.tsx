@@ -1,44 +1,48 @@
+
+import Announcements from "@/components/Announcements";
 import AttendanceChart from "@/components/AttendanceChart";
 import CountChart from "@/components/CountChart";
+import EventCalendar from "@/components/Eventcalender";
+
 import FinanceChart from "@/components/FinanceChart";
 import Usercard from "@/components/Usercard";
 
 
-const Page = () => {
+const AdminPage = () => {
   return (
     <div className="p-4 flex gap-4 flex-col md:flex-row">
       {/* LEFT */}
-      <div className="w-full lg:2/3 flex flex-col gap-8">
-        {/* USER cards */}
+      <div className="w-full lg:w-2/3 flex flex-col gap-8">
+        {/* USER CARDS */}
         <div className="flex gap-4 justify-between flex-wrap">
-          <Usercard type="Student"/>
-          <Usercard type="Teacher"/>
-          <Usercard type="Parent"/>
-          <Usercard type="Staff"/>
+          <Usercard type="student" />
+          <Usercard type="teacher" />
+          <Usercard type="parent" />
+          <Usercard type="staff" />
         </div>
-        {/* MIDDLE CHART */}
+        {/* MIDDLE CHARTS */}
         <div className="flex gap-4 flex-col lg:flex-row">
-          {/* Count Chart */}
+          {/* COUNT CHART */}
           <div className="w-full lg:w-1/3 h-[450px]">
-            <CountChart/>
+            <CountChart />
           </div>
-          {/* attendence chart */}
+          {/* ATTENDANCE CHART */}
           <div className="w-full lg:w-2/3 h-[450px]">
-          <AttendanceChart/>
+            <AttendanceChart />
           </div>
         </div>
         {/* BOTTOM CHART */}
         <div className="w-full h-[500px]">
-          <FinanceChart/>
+          <FinanceChart />
         </div>
       </div>
-
-      {/*RIGHT  */}
-      <div className="w-full lg:1/3">
-
+      {/* RIGHT */}
+      <div className="w-full lg:w-1/3 flex flex-col gap-8">
+        <EventCalendar />
+        <Announcements/>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Page;
+export default AdminPage;

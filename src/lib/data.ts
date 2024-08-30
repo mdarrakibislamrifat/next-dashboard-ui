@@ -915,142 +915,147 @@ export const announcementsData = [
   },
 ];
 
-// YOU SHOULD CHANGE THE DATES OF THE EVENTS TO THE CURRENT DATE TO SEE THE EVENTS ON THE CALENDAR
 export const calendarEvents = [
   {
     title: "Math",
     allDay: false,
-    start: new Date(new Date().setHours(8, 0, 0, 0)), // Today at 8:00 AM
-    end: new Date(new Date().setHours(8, 45, 0, 0)), // Today at 8:45 AM
+    start: new Date(2024, 7, 12, 8, 0),
+    end: new Date(2024, 7, 12, 8, 45),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(new Date().setHours(9, 0, 0, 0)), // Today at 9:00 AM
-    end: new Date(new Date().setHours(9, 45, 0, 0)), // Today at 9:45 AM
+    start: new Date(2024, 7, 12, 9, 0),
+    end: new Date(2024, 7, 12, 9, 45),
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(new Date().setHours(10, 0, 0, 0)), // Today at 10:00 AM
-    end: new Date(new Date().setHours(10, 45, 0, 0)), // Today at 10:45 AM
+    start: new Date(2024, 7, 12, 10, 0),
+    end: new Date(2024, 7, 12, 10, 45),
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(new Date().setHours(11, 0, 0, 0)), // Today at 11:00 AM
-    end: new Date(new Date().setHours(11, 45, 0, 0)), // Today at 11:45 AM
+    start: new Date(2024, 7, 12, 11, 0),
+    end: new Date(2024, 7, 12, 11, 45),
   },
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(new Date().setHours(13, 0, 0, 0)), // Today at 1:00 PM
-    end: new Date(new Date().setHours(13, 45, 0, 0)), // Today at 1:45 PM
+    start: new Date(2024, 7, 12, 13, 0),
+    end: new Date(2024, 7, 12, 13, 45),
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(new Date().setHours(14, 0, 0, 0)), // Today at 2:00 PM
-    end: new Date(new Date().setHours(14, 45, 0, 0)), // Today at 2:45 PM
+    start: new Date(2024, 7, 12, 14, 0),
+    end: new Date(2024, 7, 12, 14, 45),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(new Date().setDate(new Date().getDate() + 1)).setHours(
-      9,
-      0,
-      0,
-      0
-    ), // Tomorrow at 9:00 AM
-    end: new Date(new Date().setDate(new Date().getDate() + 1)).setHours(
-      9,
-      45,
-      0,
-      0
-    ), // Tomorrow at 9:45 AM
+    start: new Date(2024, 7, 13, 9, 0),
+    end: new Date(2024, 7, 13, 9, 45),
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(new Date().setDate(new Date().getDate() + 1)).setHours(
-      10,
-      0,
-      0,
-      0
-    ), // Tomorrow at 10:00 AM
-    end: new Date(new Date().setDate(new Date().getDate() + 1)).setHours(
-      10,
-      45,
-      0,
-      0
-    ), // Tomorrow at 10:45 AM
+    start: new Date(2024, 7, 13, 10, 0),
+    end: new Date(2024, 7, 13, 10, 45),
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(new Date().setDate(new Date().getDate() + 1)).setHours(
-      11,
-      0,
-      0,
-      0
-    ), // Tomorrow at 11:00 AM
-    end: new Date(new Date().setDate(new Date().getDate() + 1)).setHours(
-      11,
-      45,
-      0,
-      0
-    ), // Tomorrow at 11:45 AM
+    start: new Date(2024, 7, 13, 11, 0),
+    end: new Date(2024, 7, 13, 11, 45),
   },
+
   {
     title: "History",
     allDay: false,
-    start: new Date(new Date().setDate(new Date().getDate() + 1)).setHours(
-      14,
-      0,
-      0,
-      0
-    ), // Tomorrow at 2:00 PM
-    end: new Date(new Date().setDate(new Date().getDate() + 1)).setHours(
-      14,
-      45,
-      0,
-      0
-    ), // Tomorrow at 2:45 PM
+    start: new Date(2024, 7, 13, 14, 0),
+    end: new Date(2024, 7, 13, 14, 45),
   },
   {
     title: "Math",
     allDay: false,
-    start: new Date(new Date().setHours(8, 0, 0, 0)), // Today at 8:00 AM
-    end: new Date(new Date().setHours(8, 45, 0, 0)), // Today at 8:45 AM
-  },
-  {
-    title: "English",
-    allDay: false,
-    start: new Date(new Date().setHours(9, 0, 0, 0)), // Today at 9:00 AM
-    end: new Date(new Date().setHours(9, 45, 0, 0)), // Today at 9:45 AM
+    start: new Date(2024, 7, 14, 8, 0),
+    end: new Date(2024, 7, 14, 8, 45),
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(new Date().setHours(10, 0, 0, 0)), // Today at 10:00 AM
-    end: new Date(new Date().setHours(10, 45, 0, 0)), // Today at 10:45 AM
+    start: new Date(2024, 7, 14, 10, 0),
+    end: new Date(2024, 7, 14, 10, 45),
   },
-  {
-    title: "Physics",
-    allDay: false,
-    start: new Date(new Date().setHours(11, 0, 0, 0)), // Today at 11:00 AM
-    end: new Date(new Date().setHours(11, 45, 0, 0)), // Today at 11:45 AM
-  },
+
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(new Date().setHours(13, 0, 0, 0)), // Today at 1:00 PM
-    end: new Date(new Date().setHours(13, 45, 0, 0)), // Today at 1:45 PM
+    start: new Date(2024, 7, 14, 13, 0),
+    end: new Date(2024, 7, 14, 13, 45),
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(new Date().setHours(14, 0, 0, 0)), // Today at 2:00 PM
-    end: new Date(new Date().setHours(14, 45, 0, 0)), // Today at 2:45 PM
+    start: new Date(2024, 7, 14, 14, 0),
+    end: new Date(2024, 7, 13, 14, 45),
+  },
+  {
+    title: "English",
+    allDay: false,
+    start: new Date(2024, 7, 15, 9, 0),
+    end: new Date(2024, 7, 15, 9, 45),
+  },
+  {
+    title: "Biology",
+    allDay: false,
+    start: new Date(2024, 7, 15, 10, 0),
+    end: new Date(2024, 7, 15, 10, 45),
+  },
+  {
+    title: "Physics",
+    allDay: false,
+    start: new Date(2024, 7, 15, 11, 0),
+    end: new Date(2024, 7, 15, 11, 45),
+  },
+
+  {
+    title: "History",
+    allDay: false,
+    start: new Date(2024, 7, 15, 14, 0),
+    end: new Date(2024, 7, 15, 14, 45),
+  },
+  {
+    title: "Math",
+    allDay: false,
+    start: new Date(2024, 7, 16, 8, 0),
+    end: new Date(2024, 7, 16, 8, 45),
+  },
+  {
+    title: "English",
+    allDay: false,
+    start: new Date(2024, 7, 16, 9, 0),
+    end: new Date(2024, 7, 16, 9, 45),
+  },
+
+  {
+    title: "Physics",
+    allDay: false,
+    start: new Date(2024, 7, 16, 11, 0),
+    end: new Date(2024, 7, 16, 11, 45),
+  },
+  {
+    title: "Chemistry",
+    allDay: false,
+    start: new Date(2024, 7, 16, 13, 0),
+    end: new Date(2024, 7, 16, 13, 45),
+  },
+  {
+    title: "History",
+    allDay: false,
+    start: new Date(2024, 7, 16, 14, 0),
+    end: new Date(2024, 7, 16, 14, 45),
   },
 ];

@@ -2,7 +2,7 @@
 import Announcements from "@/components/Announcements";
 import AttendanceChart from "@/components/AttendanceChart";
 import CountChart from "@/components/CountChart";
-import EventCalendar from "@/components/Eventcalender";
+import EventCalendar from "@/components/EventCalender";
 
 import FinanceChart from "@/components/FinanceChart";
 import Usercard from "@/components/Usercard";

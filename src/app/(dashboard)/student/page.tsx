@@ -1,58 +1,26 @@
-
-import { BarChart, Bar, ResponsiveContainer } from 'recharts';
-
-const data = [
-  {
-    name: 'Page A',
-    uv: 4000,
-    pv: 2400,
-    amt: 2400,
-  },
-  {
-    name: 'Page B',
-    uv: 3000,
-    pv: 1398,
-    amt: 2210,
-  },
-  {
-    name: 'Page C',
-    uv: 2000,
-    pv: 9800,
-    amt: 2290,
-  },
-  {
-    name: 'Page D',
-    uv: 2780,
-    pv: 3908,
-    amt: 2000,
-  },
-  {
-    name: 'Page E',
-    uv: 1890,
-    pv: 4800,
-    amt: 2181,
-  },
-  {
-    name: 'Page F',
-    uv: 2390,
-    pv: 3800,
-    amt: 2500,
-  },
-  {
-    name: 'Page G',
-    uv: 3490,
-    pv: 4300,
-    amt: 2100,
-  },
-];
-
+"use client";
+import Announcements from "@/components/Announcements";
+import BigCalendar from "@/components/BigCalender";
+import EventCalendar from "@/components/EventCalender";
+import "react-big-calendar/lib/css/react-big-calendar.css";
 
 const StudentPage = () => {
   return (
-    <div>
-      Student
+    <div className="p-4 flex gap-4 flex-col xl:flex-row">
+      {/* LEFT */}
+      <div className="w-full xl:w-2/3">
+        <div className="h-full bg-white p-4 rounded-md">
+          <h1 className="text-xl font-semibold">Schedule (4A)</h1>
+          <BigCalendar />
+        </div>
+      </div>
+      {/* RIGHT */}
+      <div className="w-full xl:w-1/3 flex flex-col gap-8">
+        <EventCalendar />
+        <Announcements />
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default StudentPage;
